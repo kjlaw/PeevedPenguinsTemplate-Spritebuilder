@@ -267,8 +267,6 @@
 					<real>500</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -520,8 +518,8 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>0.0</real>
-											<real>0.0</real>
+											<real>0.89737653732299805</real>
+											<real>-3.3109769821166992</real>
 										</array>
 										<array>
 											<real>0.0</real>
@@ -532,16 +530,24 @@
 											<real>177</real>
 										</array>
 										<array>
-											<real>42</real>
-											<real>0.0</real>
+											<real>39.909404754638672</real>
+											<real>108.07973480224609</real>
+										</array>
+										<array>
+											<real>16.032629013061523</real>
+											<real>-1.5264731645584106</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>42</real>
-												<real>0.0</real>
+												<real>16.032629013061523</real>
+												<real>-1.5264731645584106</real>
+											</array>
+											<array>
+												<real>39.909404754638672</real>
+												<real>108.07973480224609</real>
 											</array>
 											<array>
 												<real>42</real>
@@ -552,8 +558,8 @@
 												<real>177</real>
 											</array>
 											<array>
-												<real>0.0</real>
-												<real>0.0</real>
+												<real>0.89737653732299805</real>
+												<real>-3.3109769821166992</real>
 											</array>
 										</array>
 									</array>
