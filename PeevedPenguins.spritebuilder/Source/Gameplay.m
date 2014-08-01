@@ -18,6 +18,7 @@
 - (void)didLoadFromCCB {
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
+    
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
 }
@@ -40,6 +41,11 @@
     CGPoint launchDirection = ccp(1, 0);
     CGPoint force = ccpMult(launchDirection, 8000);
     [penguin.physicsBody applyForce:force];
+    
+    // ensure followed object is in visible area when starting
+    self.position = ccp(0, 0);
+    CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
+    [self runAction:follow];
 }
 
 @end
